@@ -1,3 +1,11 @@
+#left {
+  background-color: grey;
+  width: 50%;
+  height: 100vh;
+}
+
 #name {
-  color: red;
+  text-align: center;
+  position: relative;
+  top: 50%;
 }

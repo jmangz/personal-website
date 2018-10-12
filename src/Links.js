@@ -1,9 +1,11 @@
 import React from 'react';
+import './Links.css';
 
-const Links = () => (
-  <div>
-    <button type="button">Linkedin</button>
-    <button type="button">Github</button>
+const Links = ({ hoverState, hoverChange }) => (
+  <div id="right">
+    <a className={`${hoverState}`} href="gooogle.com">Linkedin</a>
+    <br />
+    <a className={`${hoverState}`} href="gooogle.com">Linkedin</a>
   </div>
 );
 

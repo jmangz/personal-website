@@ -2,7 +2,7 @@ import React from 'react';
 import './Name.css';
 
 const Name = () => (
-  <div>
+  <div id="left">
     <p id="name">Eric Chou!!!!</p>
   </div>
 );
