@@ -1,8 +1,9 @@
 import React from 'react';
+import './Name.css';
 
 const Name = () => (
   <div>
-    <p>Eric Chou</p>
+    <p id="name">Eric Chou!!!!</p>
   </div>
 );
 
