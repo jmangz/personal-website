@@ -1,7 +1,7 @@
 import React from 'react';
 import './Name.css';
 
-const Name = ({ nameHoverState, linkHoverState }) => {
+const Name = ({ leftPageState, nameHoverState, linkHoverState }) => {
   let description = '';
 
   if (linkHoverState === 'linkedin') {
@@ -9,7 +9,7 @@ const Name = ({ nameHoverState, linkHoverState }) => {
   } else if (linkHoverState === 'github') description = 'Millions of stars';
   else description = '';
   return (
-    <div className="left-default">
+    <div className={leftPageState}>
       <div className={nameHoverState}>
         <p className="name-character">E</p>
         <p className="name-character">r</p>

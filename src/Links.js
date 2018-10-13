@@ -7,8 +7,9 @@ const Links = ({
   hoverGithub,
   hoverChange,
   toDefault,
+  rightPageState,
 }) => (
-  <div className="right-default">
+  <div className={rightPageState}>
     <p className="introduction-paragraph">Software Engineer</p>
     <div className="links">
       <a className={linkedinHoverState} onMouseEnter={hoverChange} onMouseLeave={toDefault} href="https://linkedin.com/in/echou1/">Linkedin</a>
