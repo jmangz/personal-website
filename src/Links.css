@@ -43,7 +43,8 @@
   display: block;
   /* border: 1px solid black; */
   margin-top: 10em;
-  margin-bottom: 30em;
+  font-size: 2em;
+  margin-bottom: 10em;
 }
 
 .github {
