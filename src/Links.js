@@ -10,7 +10,24 @@ const Links = ({
   rightPageState,
 }) => (
   <div className={rightPageState}>
-    <p className="introduction-paragraph">Software Engineer</p>
+    <div className="introduction-paragraph">
+      <p className="name-character">S</p>
+      <p className="name-character">o</p>
+      <p className="name-character">f</p>
+      <p className="name-character">t</p>
+      <p className="name-character">w</p>
+      <p className="name-character">a</p>
+      <p className="name-character">r</p>
+      <p className="name-character">e </p>
+      <p className="name-character">E</p>
+      <p className="name-character">n</p>
+      <p className="name-character">g</p>
+      <p className="name-character">i</p>
+      <p className="name-character">n</p>
+      <p className="name-character">e</p>
+      <p className="name-character">e</p>
+      <p className="name-character">r</p>
+    </div>
     <div className="links">
       <a className={linkedinHoverState} onMouseEnter={hoverChange} onMouseLeave={toDefault} href="https://linkedin.com/in/echou1/">Linkedin</a>
       <a className={githubHoverState} onMouseEnter={hoverGithub} onMouseLeave={toDefault} href="gooogle.com">Github</a>

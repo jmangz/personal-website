@@ -33,9 +33,12 @@
 .name-character {
   margin: 0;
   transition: 4s;
+  white-space:pre;
+
 }
 .name-character:hover {
-  color: rgb(249, 252, 169);
+  /* color: rgb(249, 252, 169; */
+  color: rgb(61, 213, 255);
 
   transition: 1s;
 }

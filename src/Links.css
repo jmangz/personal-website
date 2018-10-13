@@ -24,7 +24,6 @@
   left: 30%;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-
   display: inline-block;
   width: 5em;
   color: black;
@@ -39,9 +38,9 @@
 
 .introduction-paragraph {
   font-family: 'Raleway', sans-serif;
-  text-align: center;
-  display: block;
+  display: inline-flex;
   /* border: 1px solid black; */
+  margin-left: 7.5em;
   margin-top: 10em;
   font-size: 2em;
   margin-bottom: 10em;
