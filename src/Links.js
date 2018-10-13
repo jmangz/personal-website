@@ -8,10 +8,12 @@ const Links = ({
   hoverChange,
   toDefault,
 }) => (
-  <div id="right">
-    <a className={linkedinHoverState} onMouseEnter={hoverChange} onMouseLeave={toDefault} href="https://linkedin.com/in/echou1/">Linkedin</a>
-    <br />
-    <a className={githubHoverState} onMouseEnter={hoverGithub} onMouseLeave={toDefault} href="gooogle.com">Github</a>
+  <div className="right-default">
+    <p className="introduction-paragraph">Software Engineer</p>
+    <div className="links">
+      <a className={linkedinHoverState} onMouseEnter={hoverChange} onMouseLeave={toDefault} href="https://linkedin.com/in/echou1/">Linkedin</a>
+      <a className={githubHoverState} onMouseEnter={hoverGithub} onMouseLeave={toDefault} href="gooogle.com">Github</a>
+    </div>
   </div>
 );
 

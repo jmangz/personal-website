@@ -9,7 +9,7 @@ const Name = ({ nameHoverState, linkHoverState }) => {
   } else if (linkHoverState === 'github') description = 'Millions of stars';
   else description = '';
   return (
-    <div id="left">
+    <div className="left-default">
       <div className={nameHoverState}>
         <p className="name-character">E</p>
         <p className="name-character">r</p>

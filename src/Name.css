@@ -1,7 +1,15 @@
-#left {
+.left-default {
   background-color: white;
   width: 50%;
   height: 100vh;
+}
+
+.left-linkedin {
+  background-color: blue;
+}
+
+.left-github {
+  background-color: red;
 }
 
 .link-description {

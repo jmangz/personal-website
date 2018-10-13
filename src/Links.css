@@ -1,49 +1,69 @@
-#right {
+.right-default {
   width: 50%;
   background-color: white;
   height: 100vh;
 }
 
+.right-linkedin {
+  background-color: blue;
+}
+
+.right-github {
+  background-color: red;
+}
+
 .default {
   position: relative;
-  top: 45%;
-  left: 45%;
-  margin-bottom: 2em;
+  left: 30%;
+  text-align: center;
   display: inline-block;
+  width: 5em;
   color: black;
   background-color: white;
-  padding: 1.5em;
   border-radius: 8%;
+  padding: 1.5em;
   text-decoration: none;
   border: 2px solid black;
-  transition: .5s;
+  margin-right: 2em;
+}
+
+
+
+.introduction-paragraph {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: block;
+  border: 1px solid black;
+  margin-top: 10em;
+  margin-bottom: 30em;
 }
 
 .github {
   position: relative;
-  top: 45%;
-  left: 45%;
-  margin-bottom: 2em;
+  left: 30%;
+  text-align: center;
   display: inline-block;
+  width: 5em;
   color: black;
-  background-color: red;
-  padding: 1.5em;
+  background-color: white;
   border-radius: 8%;
+  padding: 1.5em;
   text-decoration: none;
-  border: 2px solid red;
+  border: 2px solid black;
+  margin-right: 2em;
 
 }
 .linkedin {
   position: relative;
-  top: 45%;
-  left: 45%;
-  margin-bottom: 2em;
+  left: 30%;
+  text-align: center;
   display: inline-block;
+  width: 5em;
   color: black;
-  background-color: blue;
-  padding: 1.5em;
+  background-color: white;
   border-radius: 8%;
+  padding: 1.5em;
   text-decoration: none;
-  border: 2px solid blue;
-  transition: .3s;
+  border: 2px solid black;
+  margin-right: 2em;
 }
