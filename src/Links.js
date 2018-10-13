@@ -30,7 +30,7 @@ const Links = ({
     </div>
     <div className="links">
       <a className={linkedinHoverState} onMouseEnter={hoverChange} onMouseLeave={toDefault} href="https://linkedin.com/in/echou1/">Linkedin</a>
-      <a className={githubHoverState} onMouseEnter={hoverGithub} onMouseLeave={toDefault} href="gooogle.com">Github</a>
+      <a className={githubHoverState} onMouseEnter={hoverGithub} onMouseLeave={toDefault} href="https://github.com/jmangz">Github</a>
     </div>
   </div>
 );
