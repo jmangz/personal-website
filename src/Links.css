@@ -5,11 +5,15 @@
 }
 
 .right-linkedin {
+  width: 50%;
   background-color: blue;
+  height: 100vh;
 }
 
 .right-github {
+  width: 50%;
   background-color: red;
+  height: 100vh;
 }
 
 .default {

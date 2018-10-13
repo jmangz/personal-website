@@ -6,10 +6,14 @@
 
 .left-linkedin {
   background-color: blue;
+  width: 50%;
+  height: 100vh;
 }
 
 .left-github {
   background-color: red;
+  width: 50%;
+  height: 100vh;
 }
 
 .link-description {
