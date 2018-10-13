@@ -1,19 +1,19 @@
 .left-default {
-  background-color: white;
+  background-color: #FBBA72;
   width: 50%;
   height: 100vh;
   transition: 4s;
 }
 
 .left-linkedin {
-  background-color: blue;
+  background-color: #A31621;
   width: 50%;
   height: 100vh;
   transition: 4s;
 }
 
 .left-github {
-  background-color: red;
+  background-color: #90C2E7;
   width: 50%;
   height: 100vh;
   transition: 4s;
@@ -62,7 +62,7 @@
 .name-github {
   display: flex;
   font-size: 3em;
-  color: purple;
+  color: #4E8098;
   text-align: left;
   position: relative;
   top: 25%;
@@ -74,7 +74,7 @@
 .name-linkedin {
   display: flex;
   font-size: 3em;
-  color: orange;
+  color: #FCF7F8;
   text-align: left;
   position: relative;
   top: 25%;

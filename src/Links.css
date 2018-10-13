@@ -1,20 +1,20 @@
 .right-default {
   width: 50%;
-  background-color: white;
+  background-color: #FBBA72;
   height: 100vh;
   transition: 4s;
 }
 
 .right-linkedin {
   width: 50%;
-  background-color: blue;
+  background-color: #A31621;
   height: 100vh;
   transition: 4s;
 }
 
 .right-github {
   width: 50%;
-  background-color: red;
+  background-color: #90C2E7;
   height: 100vh;
   transition: 4s;
 }
@@ -23,14 +23,15 @@
   position: relative;
   left: 30%;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+
   display: inline-block;
   width: 5em;
   color: black;
-  background-color: white;
-  border-radius: 8%;
+  background-color: #FBBA72;
   padding: 1.5em;
   text-decoration: none;
-  border: 2px solid black;
+  /* border: .5px solid black; */
   margin-right: 2em;
 }
 
@@ -40,7 +41,7 @@
   font-family: 'Raleway', sans-serif;
   text-align: center;
   display: block;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-top: 10em;
   margin-bottom: 30em;
 }
@@ -50,13 +51,14 @@
   left: 30%;
   text-align: center;
   display: inline-block;
+  font-family: 'Raleway', sans-serif;
+
   width: 5em;
   color: black;
-  background-color: white;
-  border-radius: 8%;
+  /* background-color: white; */
   padding: 1.5em;
   text-decoration: none;
-  border: 2px solid black;
+  border: 1px solid black;
   margin-right: 2em;
 
 }
@@ -65,12 +67,13 @@
   left: 30%;
   text-align: center;
   display: inline-block;
+  font-family: 'Raleway', sans-serif;
+
   width: 5em;
   color: black;
-  background-color: white;
-  border-radius: 8%;
+  /* background-color: white; */
   padding: 1.5em;
   text-decoration: none;
-  border: 2px solid black;
+  border: 1px solid black;
   margin-right: 2em;
 }
