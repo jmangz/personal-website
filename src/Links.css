@@ -16,3 +16,16 @@
   border-radius: 8%;
   text-decoration: none;
 }
+
+.linkedin {
+  position: relative;
+  top: 45%;
+  left: 45%;
+  margin-bottom: 2em;
+  display: inline-block;
+  color: black;
+  background-color: blue;
+  padding: 1.5em;
+  border-radius: 8%;
+  text-decoration: none;
+}

@@ -4,8 +4,17 @@
   height: 100vh;
 }
 
-#name {
+
+/* .default {
+  color: black;
   text-align: center;
   position: relative;
   top: 50%;
 }
+
+.linkedin {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 50%;
+} */

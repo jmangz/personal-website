@@ -10,6 +10,7 @@ class App extends Component {
       hoverState: 'default',
     };
     this.hoverLinkedin = this.hoverLinkedin.bind(this);
+    this.toDefault = this.toDefault.bind(this);
   }
 
   hoverLinkedin() {
@@ -18,12 +19,22 @@ class App extends Component {
     });
   }
 
+  toDefault() {
+    this.setState({
+      hoverState: 'default',
+    });
+  }
+
   render() {
     const { hoverState } = this.state;
     return (
       <div id="page">
         <Name hoverState={hoverState} />
-        <Links hoverState={hoverState} hoverChange={this.hoverLinkedIn} />
+        <Links
+          hoverState={hoverState}
+          hoverChange={this.hoverLinkedin}
+          toDefault={this.toDefault}
+        />
       </div>
     );
   }

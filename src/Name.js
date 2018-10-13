@@ -1,9 +1,9 @@
 import React from 'react';
 import './Name.css';
 
-const Name = () => (
+const Name = ({ hoverState }) => (
   <div id="left">
-    <p id="name">Eric Chou!!!!</p>
+    <p className={hoverState}>Eric Chou!!!!</p>
   </div>
 );
 
