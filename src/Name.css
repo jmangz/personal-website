@@ -5,16 +5,23 @@
 }
 
 
-/* .default {
+.name-default {
   color: black;
   text-align: center;
   position: relative;
   top: 50%;
 }
 
-.linkedin {
+.name-github {
+  color: purple;
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+
+.name-linkedin {
   color: white;
   text-align: center;
   position: relative;
   top: 50%;
-} */
+}

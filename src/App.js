@@ -7,31 +7,46 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      hoverState: 'default',
+      githubHoverState: 'default',
+      linkedinHoverState: 'default',
+      nameHoverState: 'name-default',
     };
+    this.hoverGithub = this.hoverGithub.bind(this);
     this.hoverLinkedin = this.hoverLinkedin.bind(this);
     this.toDefault = this.toDefault.bind(this);
   }
 
+  hoverGithub() {
+    this.setState({
+      githubHoverState: 'github',
+      nameHoverState: 'name-github',
+    });
+  }
+
   hoverLinkedin() {
     this.setState({
-      hoverState: 'linkedin',
+      linkedinHoverState: 'linkedin',
+      nameHoverState: 'name-linkedin',
     });
   }
 
   toDefault() {
     this.setState({
-      hoverState: 'default',
+      githubHoverState: 'default',
+      linkedinHoverState: 'default',
+      nameHoverState: 'name-default',
     });
   }
 
   render() {
-    const { hoverState } = this.state;
+    const { githubHoverState, linkedinHoverState, nameHoverState } = this.state;
     return (
       <div id="page">
-        <Name hoverState={hoverState} />
+        <Name nameHoverState={nameHoverState} />
         <Links
-          hoverState={hoverState}
+          githubHoverState={githubHoverState}
+          linkedinHoverState={linkedinHoverState}
+          hoverGithub={this.hoverGithub}
           hoverChange={this.hoverLinkedin}
           toDefault={this.toDefault}
         />
