@@ -2,20 +2,21 @@
   background-color: white;
   width: 50%;
   height: 100vh;
+  transition: 4s;
 }
 
 .left-linkedin {
   background-color: blue;
   width: 50%;
   height: 100vh;
-  transition: 2s;
+  transition: 4s;
 }
 
 .left-github {
   background-color: red;
   width: 50%;
   height: 100vh;
-  transition: 2s;
+  transition: 4s;
 }
 
 .link-description {
