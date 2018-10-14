@@ -21,6 +21,7 @@ class App extends Component {
   }
 
   hoverGithub() {
+    console.log('wtf');
     this.setState({
       githubHoverState: 'github',
       nameHoverState: 'name-github',

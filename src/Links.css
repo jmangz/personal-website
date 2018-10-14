@@ -3,6 +3,7 @@
   background-color: #FBBA72;
   height: 100vh;
   transition: 4s;
+  overflow: scroll;
 }
 
 .right-linkedin {
@@ -10,12 +11,14 @@
   background-color: #A31621;
   height: 100vh;
   transition: 4s;
+  overflow: scroll;
 }
 
 .right-github {
   width: 50%;
   background-color: #90C2E7;
   height: 100vh;
+  overflow: scroll;
   transition: 4s;
 }
 
@@ -32,6 +35,8 @@
   text-decoration: none;
   /* border: .5px solid black; */
   margin-right: 2em;
+  overflow: scroll;
+  /* overflow: auto; */
 }
 
 
@@ -44,6 +49,7 @@
   margin-top: 10em;
   font-size: 2em;
   margin-bottom: 10em;
+  overflow: scroll;
 }
 
 .github {
@@ -60,7 +66,7 @@
   text-decoration: none;
   /* border: 1px solid black; */
   margin-right: 2em;
-
+  overflow: scroll;
 }
 .linkedin {
   position: relative;
@@ -76,4 +82,5 @@
   text-decoration: none;
   /* border: 1px solid black; */
   margin-right: 2em;
+  overflow: scroll;
 }
