@@ -23,6 +23,7 @@ class App extends Component {
   hoverGithub() {
     this.setState({
       githubHoverState: 'github',
+      linkedinHoverState: 'linkedin-github',
       nameHoverState: 'name-github',
       linkHoverState: 'github',
       leftPageState: 'left-github',
@@ -32,6 +33,7 @@ class App extends Component {
 
   hoverLinkedin() {
     this.setState({
+      githubHoverState: 'github-linkedin',
       linkedinHoverState: 'linkedin',
       nameHoverState: 'name-linkedin',
       linkHoverState: 'linkedin',
