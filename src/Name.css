@@ -26,8 +26,6 @@
   top: 25%;
   left: 25%;
   font-family: 'Raleway', sans-serif;
-
-
 }
 
 .name-character {
@@ -85,18 +83,90 @@
   font-weight: bold;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   .name-default {
     font-size: 7em;
+  }
+
+  .left-default {
+    height: 25em;
+    width: 100%;
+  }
+
+  .left-linkedin {
+    width: 100%;
+  }
+
+  .left-github {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .left-default {
+    width: 100%;
+    height: 25em;
+  }
+
+  .name-default {
+    font-size: 7em;
+  }
+
+  .left-linkedin {
+    width: 100%;
+  }
+
+  .left-github {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .left-default {
+    width: 50%;
+    height: 100vh;
+  }
+  .name-default {
+    font-size: 5em;
+  }
+
+  .left-linkedin {
+    width: 50%;
+  }
+
+  .left-github {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .name-default {
+    font-size: 9em;
   }
 }
 
 @media only screen and (min-width: 1800px) {
   .name-default {
-    font-size: 12em;
+    font-size: 14em;
+  }
+
+  .name-github {
+    font-size: 7em;
+    color: #4E8098;
+    top: 25%;
+    left: 25%;
+  }
+
+  .name-linkedin {
+    font-size: 7em;
+    color: #FCF7F8;
+    top: 25%;
+    left: 25%;
   }
 
   .link-description {
     font-size: 2em;
+    top: 25%;
+    left: 25%;
   }
 }

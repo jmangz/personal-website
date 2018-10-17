@@ -125,56 +125,144 @@ left: 30%;
 
 /* 600px, 900px, 1200px, and 1800px */
 @media only screen and (max-width: 600px) {
-  /* .introduction-paragraph {
-    margin-left: 4em;
+  .right-default {
+    width: 100%;
+  }
+
+  .introduction-paragraph {
+    margin: 3em 0 5em 5em;
   }
 
   .default {
-    left: 23%;
-  }
-
-  .github {
-    left: 23%
+    left: 20%;
+    font-size: 1.25em;
   }
 
   .linkedin {
-    left: 23%;
-  } */
+    left: 20%;
+    font-size: 1.25em;
+  }
+
+  .github {
+    left: 20%;
+    font-size: 1.25em;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .right-default {
+    width: 100%;
+  }
+
+  .introduction-paragraph {
+    margin: 3em 0 5em 5em;
+  }
+
+  .default {
+    left: 20%;
+    font-size: 1.25em;
+  }
+
+  .linkedin {
+    left: 20%;
+    font-size: 1.25em;
+  }
+
+  .github {
+    left: 20%;
+    font-size: 1.25em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .right-default {
+    width: 50%;
+    height: 100vh;
+  }
+
+  .introduction-paragraph {
+    margin: 8em 0 5em 3em;
+  }
+
+  .default {
+    font-size: 1em;
+  }
+
+  .linkedin {
+    font-size: 1em;
+  }
+
+  .github {
+    font-size: 1em;
+  }
+
+  .github-linkedin {
+    left: 20%;
+  }
+
+  .linkedin-github {
+    left: 20%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-  /* .default {
-    left: 20%;
+  .introduction-paragraph {
+    margin: 8em 0 15em 5em;
   }
 
-  .github {
-    left: 20%;
+  .default {
+    font-size: 1.25em;
   }
 
   .linkedin {
+    font-size: 1.25em;
+  }
+
+  .github {
+    font-size: 1.25em;
+  }
+
+  .github-linkedin {
+    font-size: 1.25em;
     left: 20%;
-  } */
+  }
+
+  .linkedin-github {
+    font-size: 1.25em;
+    left: 20%;
+  }
 }
 
 @media only screen and (min-width: 1800px) {
   .introduction-paragraph {
-    margin-left: 6em;
-    margin-bottom: 8em;
+    margin: 8em 0 15em 5em;
     font-size: 3em;
   }
 
   .default {
-    left: 23%;
     font-size: 2em;
-  }
-
-  .github {
-    left: 23%;
-    font-size: 2em;
+    margin-right: 1em;
   }
 
   .linkedin {
-    left: 23%;
     font-size: 2em;
+    margin-right: 1em;
+  }
+
+  .github {
+    font-size: 2em;
+    margin-right: 1em;
+  }
+
+  .github-linkedin {
+    font-size: 2em;
+    margin-right: 1em;
+    left: 20%;
+  }
+
+  .linkedin-github {
+    font-size: 2em;
+    margin-right: 1em;
+    left: 20%;
   }
 }

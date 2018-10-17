@@ -1,3 +1,27 @@
 #page {
   display: flex;
 }
+
+@media only screen and (max-width: 600px) {
+  #page {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #page {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #page {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #page {
+    display: flex;
+  }
+}
