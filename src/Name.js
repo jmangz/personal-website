@@ -16,6 +16,7 @@ const Name = ({ leftPageState, nameHoverState, linkHoverState }) => {
         <p className="name-character">i</p>
         <p className="name-character">c</p>
       </div>
+      <br />
       <div className={nameHoverState}>
         <p className="name-character">C</p>
         <p className="name-character">h</p>

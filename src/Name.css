@@ -47,17 +47,16 @@
 .name-default {
   display: flex;
   font-size: 9em;
-
+  top: 25%;
   color: black;
   text-align: left;
   position: relative;
-  top: 25%;
+  /* padding-top: 2em; */
+  max-width: 3em;
   left: 25%;
   font-family: 'Work Sans', sans-serif;
   font-weight: bold;
   /* height: 1.5em; */
-
-
   /* border: 2px solid black; */
   /* background-color: red; */
 }
@@ -84,4 +83,20 @@
   left: 25%;
   font-family: 'Work Sans', sans-serif;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+  .name-default {
+    font-size: 7em;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .name-default {
+    font-size: 12em;
+  }
+
+  .link-description {
+    font-size: 2em;
+  }
 }
