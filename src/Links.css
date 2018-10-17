@@ -207,29 +207,32 @@ left: 30%;
 
 @media only screen and (min-width: 1200px) {
   .introduction-paragraph {
-    margin: 8em 0 15em 5em;
+    margin: 8em 0 12em 5em;
   }
 
   .default {
     font-size: 1.25em;
+    left: 15%;
   }
 
   .linkedin {
     font-size: 1.25em;
+    left: 15%;
   }
 
   .github {
     font-size: 1.25em;
+    left: 15%;
   }
 
   .github-linkedin {
     font-size: 1.25em;
-    left: 20%;
+    left: 15%;
   }
 
   .linkedin-github {
     font-size: 1.25em;
-    left: 20%;
+    left: 15%;
   }
 }
 
