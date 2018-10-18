@@ -64,7 +64,7 @@ class App extends Component {
           githubHoverState={githubHoverState}
           linkedinHoverState={linkedinHoverState}
           hoverGithub={this.hoverGithub}
-          hoverChange={this.hoverLinkedin}
+          hoverLinkedin={this.hoverLinkedin}
           toDefault={this.toDefault}
           rightPageState={rightPageState}
         />
