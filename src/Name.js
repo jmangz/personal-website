@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Name.css';
 
 const Name = ({ leftPageState, nameHoverState, linkHoverState }) => {
@@ -28,6 +29,12 @@ const Name = ({ leftPageState, nameHoverState, linkHoverState }) => {
       </div>
     </div>
   );
+};
+
+Name.propTypes = {
+  leftPageState: PropTypes.func.isRequired,
+  nameHoverState: PropTypes.string.isRequired,
+  linkHoverState: PropTypes.string.isRequired,
 };
 
 export default Name;
