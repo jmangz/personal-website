@@ -55,11 +55,21 @@ class App extends Component {
 
   render() {
     const {
-      githubHoverState, linkHoverState, linkedinHoverState, nameHoverState, leftPageState, rightPageState,
+      githubHoverState,
+      linkHoverState,
+      linkedinHoverState,
+      nameHoverState,
+      leftPageState,
+      rightPageState,
     } = this.state;
+
     return (
       <div id="page">
-        <Name leftPageState={leftPageState} nameHoverState={nameHoverState} linkHoverState={linkHoverState} />
+        <Name
+          leftPageState={leftPageState}
+          nameHoverState={nameHoverState}
+          linkHoverState={linkHoverState}
+        />
         <Links
           githubHoverState={githubHoverState}
           linkedinHoverState={linkedinHoverState}
