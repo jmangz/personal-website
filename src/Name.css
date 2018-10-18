@@ -1,85 +1,100 @@
 .left-default {
-  background-color: #FBBA72;
   width: 50%;
   height: 100vh;
+
   transition: 4s;
+
+  background-color: #FBBA72;
 }
 
 .left-linkedin {
-  background-color: #A31621;
   width: 50%;
   height: 100vh;
+
   transition: 4s;
+
+  background-color: #A31621;
 }
 
 .left-github {
-  background-color: #90C2E7;
   width: 50%;
   height: 100vh;
+
   transition: 4s;
+
+  background-color: #90C2E7;
 }
 
 .link-description {
-  font-size: 1.25em;
-  /* border: 1px solid black; */
   position: relative;
   top: 25%;
   left: 25%;
+
   font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
 }
 
 .name-character {
   margin: 0;
+
   transition: 4s;
   white-space:pre;
 
 }
 .name-character:hover {
-  /* color: rgb(249, 252, 169; */
-  color: rgb(61, 213, 255);
-
   transition: 1s;
+
+  color: rgb(61, 213, 255);
 }
 
 
 .name-default {
-  display: flex;
-  font-size: 9em;
-  top: 25%;
-  color: black;
-  text-align: left;
   position: relative;
-  /* padding-top: 2em; */
-  max-width: 3em;
+  top: 25%;
   left: 25%;
+
+  display: flex;
+
+  max-width: 3em;
+
+  text-align: left;
+
+  color: black;
+
   font-family: 'Work Sans', sans-serif;
+  font-size: 9em;
   font-weight: bold;
-  /* height: 1.5em; */
-  /* border: 2px solid black; */
-  /* background-color: red; */
 }
 
 .name-github {
-  display: flex;
-  font-size: 3em;
-  color: #4E8098;
-  text-align: left;
   position: relative;
   top: 25%;
   left: 25%;
+
+  display: flex;
+
+  text-align: left;
+
+  color: #4E8098;
+
   font-family: 'Work Sans', sans-serif;
+  font-size: 3em;
   font-weight: bold;
 }
 
 .name-linkedin {
-  display: flex;
-  font-size: 3em;
-  color: #FCF7F8;
-  text-align: left;
   position: relative;
   top: 25%;
   left: 25%;
+
+  display: flex;
+
+  text-align: left;
+
+  color: #FCF7F8;
+
   font-family: 'Work Sans', sans-serif;
+  font-size: 3em;
   font-weight: bold;
 }
 
@@ -89,8 +104,8 @@
   }
 
   .left-default {
-    height: 25em;
     width: 100%;
+    height: 25em;
   }
 
   .left-linkedin {
@@ -151,22 +166,27 @@
   }
 
   .name-github {
-    font-size: 7em;
-    color: #4E8098;
     top: 25%;
     left: 25%;
+
+    color: #4E8098;
+
+    font-size: 7em;
   }
 
   .name-linkedin {
-    font-size: 7em;
-    color: #FCF7F8;
     top: 25%;
     left: 25%;
+
+    color: #FCF7F8;
+
+    font-size: 7em;
   }
 
   .link-description {
-    font-size: 2em;
     top: 25%;
     left: 25%;
+
+    font-size: 2em;
   }
 }
