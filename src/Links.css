@@ -232,13 +232,13 @@ transition: 4s;
     font-size: 1em;
   }
 
-  /* .github-linkedin {
+  .github-linkedin {
     left: 20%;
   }
 
   .linkedin-github {
     left: 20%;
-  } */
+  }
 }
 
 @media only screen and (min-width: 1200px) {
